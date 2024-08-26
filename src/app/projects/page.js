@@ -1,9 +1,9 @@
 import Image from "next/image";
-import bg from "../../public/background/home-background.png";
+import bg from "../../../public/background/projects-background.png";
+import { projectsData } from "@/app/data";
+import ProjectList from "@/components/projects";
 import RenderModel from "@/components/RenderModel";
-import Wizard from "@/components/models/Wizard";
-import Navigation from "@/components/navigation";
-import FireFlieisBackground from "@/components/navigation/FireFlieisBackground";
+import Staff from "@/components/models/Staff";
 
 export default function Home() {
   return (
@@ -15,12 +15,10 @@ export default function Home() {
         alt="background"
       />
 
-      <div className="w-full h-screen">
-        {/* navigation and 3d model */}
-        <Navigation />
-        <FireFlieisBackground />
+      <ProjectList projects={projectsData} />
+      <div className="flex items-center justify-center fixed top-20 left-0 h-screen">
         <RenderModel>
-          <Wizard />
+          <Staff />
         </RenderModel>
       </div>
     </main>
