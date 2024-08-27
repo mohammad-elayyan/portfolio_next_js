@@ -3,7 +3,7 @@ import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
 import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
-import FireFlieisBackground from "@/components/navigation/FireFlieisBackground";
+import FireFlieisBackground from "@/components/FireFlieisBackground";
 
 export default function Home() {
   return (
