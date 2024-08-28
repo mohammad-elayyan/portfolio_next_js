@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Image from 'next/image';
 import React from 'react'
 
 const ItemLayout = ({ children, className }) => {
@@ -22,15 +23,31 @@ const AboutDetails = () => {
                     </p>
                 </ItemLayout>
 
-                <ItemLayout className="col-span-4">
+                <ItemLayout className="col-span-4 text-accent">
                     <p className='font-semibold w-full text-left text-5xl'>
                         +25 <sub className='font-semibold text-base'>clients</sub>
                     </p>
                 </ItemLayout>
-                <ItemLayout className="col-span-4">
+                <ItemLayout className="col-span-4 text-accent">
                     <div>
-                        years of experience
+                        <p className='font-semibold w-full text-left text-5xl'>
+                            +4 <sub className='font-semibold text-base'>
+                                years of experience
+                            </sub>
+                        </p>
                     </div>
+                </ItemLayout>
+                <ItemLayout className="col-span-4 !p-0">
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs?username=mohammad-elayyan&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="github stats"
+                        loading='lazy' />
+                </ItemLayout>
+                <ItemLayout className="col-span-8 !p-0">
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=mohammad-elayyan&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="github stats"
+                        loading='lazy' />
+                </ItemLayout>
+                <ItemLayout className="col-span-full !p-0">
+                    <img className='w-full h-auto' src="https://skillicons.dev/icons?i=html,css,bootstrap,sass,js,jquery,react,nextjs,redux,nodejs,mongodb,tailwind,threejs,npm,vite,git,github,vercel,netlify,aws,php,laravel,mysql,postman,docker,sqlite,vscode,ps,ai,ae" alt="github stats"
+                        loading='lazy' />
                 </ItemLayout>
             </div>
         </section>
