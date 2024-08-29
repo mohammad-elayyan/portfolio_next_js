@@ -52,7 +52,7 @@ const AboutDetails = () => {
                     <img className='w-full h-auto' src="https://streak-stats.demolab.com?user=mohammad-elayyan&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
                 <ItemLayout className="col-span-6 !p-0">
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=mohammad-elayyan&repo=Portfolio&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="github streak stats" loading='lazy' />
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=mohammad-elayyan&repo=Portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_line_count=2" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
             </div>
         </section>
