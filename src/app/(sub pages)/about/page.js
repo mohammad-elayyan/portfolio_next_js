@@ -7,7 +7,7 @@ import RenderModel from "@/components/RenderModel";
 import Hat from "@/components/models/Hat";
 import AboutDetails from "@/components/about";
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <Image
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
