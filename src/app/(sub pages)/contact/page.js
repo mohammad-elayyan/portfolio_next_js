@@ -20,7 +20,7 @@ const Contact = () => {
           <h1 className="text-4xl font-semibold text-accent text-center capitalize">
             summon the wizard
           </h1>
-          <p class className="text-center font-light">
+          <p className="text-center font-light">
             summon the wizard summon the wizard summon the wizard summon the
             wizard summon the wizard summon the wizard
           </p>
