@@ -17,6 +17,7 @@ module.exports = {
         foreground: "rgb(var(--foreground))",
         muted: "rgb(var(--muted))",
         accent: "rgb(var(--accent))",
+        danger: "rgb(var(--danger))",
       },
       backgroundImage: {
         "firefly-radial":
@@ -36,7 +37,7 @@ module.exports = {
         "spin-slow": "spin 40s linear infinite",
         "spin-slow-reverse": "spin-reverse 40s linear infinite",
       },
-      screens: c{
+      screens: {
         xs: "480px",
       },
     },

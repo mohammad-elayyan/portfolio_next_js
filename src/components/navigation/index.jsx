@@ -27,7 +27,20 @@ const Navigation = () => {
                             })}
                         </div>)
                         :
-                        <h1>Responsive Design</h1>
+                        (<>
+                            <div className='group w-full px-2.5 xs:w-max space-y-4 xs:p-0 flex flex-col items-start xs:items-center justify-between relative'>
+                                {BtnList.slice(0, BtnList.length / 2).map((btn, indx) => {
+
+                                    return <Button key={indx} cords={[]} {...btn} />
+                                })}
+                            </div>
+                            <div className='group w-full xs:w-max space-y-4 xs:p-0 px-2.5 flex flex-col items-end xs:items-center justify-between relative'>
+                                {BtnList.slice(BtnList.length / 2, BtnList.length).map((btn, indx) => {
+
+                                    return <Button key={indx} cords={[]} {...btn} labelDirection='left' />
+                                })}
+                            </div>
+                        </>)
                 }}
             </ResponsiveComponent>
         </div>

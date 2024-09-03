@@ -13,12 +13,12 @@ const ItemLayout = ({ children, className }) => {
 const AboutDetails = () => {
     return (
         <section className='py-20 w-full'>
-            <div className="grid grid-cols-12 gap-8 w-full">
-                <ItemLayout className="col-span-8 row-span-2 flex-col items-start">
-                    <h2 className='text-2xl text-left w-full capitalize'>
+            <div className="grid grid-cols-12 gap-4 sm:gap-6 md:gap-8 w-full">
+                <ItemLayout className="col-span-full lg:col-span-8 row-span-2 flex-col items-start">
+                    <h2 className='text-xl md:text-2xl text-left w-full capitalize'>
                         info
                     </h2>
-                    <p className='font-light text-left w-full'>
+                    <p className='font-light text-left w-full text-xs sm:text-sm md:text-base'>
                         Hello there
                     </p>
                 </ItemLayout>
