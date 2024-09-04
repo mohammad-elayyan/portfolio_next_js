@@ -4,7 +4,7 @@ import React from 'react'
 
 const ItemLayout = ({ children, className }) => {
     return (
-        <div className={clsx('custom-bg p-8 rounded-xl flex items-center justify-center space-y-8', className)}>
+        <div className={clsx('custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8', className)}>
             {children}
         </div>
     );
@@ -23,35 +23,35 @@ const AboutDetails = () => {
                     </p>
                 </ItemLayout>
 
-                <ItemLayout className="col-span-4 text-accent">
-                    <p className='font-semibold w-full text-left text-5xl'>
+                <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
+                    <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
                         +25 <sub className='font-semibold text-base'>clients</sub>
                     </p>
                 </ItemLayout>
-                <ItemLayout className="col-span-4 text-accent">
+                <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
                     <div>
-                        <p className='font-semibold w-full text-left text-5xl'>
+                        <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
                             +4 <sub className='font-semibold text-base'>
                                 years of experience
                             </sub>
                         </p>
                     </div>
                 </ItemLayout>
-                <ItemLayout className="col-span-4 !p-0">
+                <ItemLayout className="col-span-full sm:col-span-6 md:col-span-4 !p-0">
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs?username=mohammad-elayyan&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="github stats"
                         loading='lazy' />
                 </ItemLayout>
-                <ItemLayout className="col-span-8 !p-0">
+                <ItemLayout className="col-span-full md:col-span-8 !p-0">
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api?username=mohammad-elayyan&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="github stats"
                         loading='lazy' />
                 </ItemLayout>
                 <ItemLayout className="col-span-full p-5">
                     <img className='w-full h-auto ' src="https://skillicons.dev/icons?i=html,css,bootstrap,sass,js,jquery,react,nextjs,redux,nodejs,mongodb,tailwind,threejs,npm,vite,git,github,vercel,netlify,aws,php,laravel,mysql,postman,docker,sqlite,vscode,ps,ai,ae" alt="github stats" loading='lazy' />
                 </ItemLayout>
-                <ItemLayout className="col-span-6 !p-0">
+                <ItemLayout className="col-span-full md:col-span-6 !p-0">
                     <img className='w-full h-auto' src="https://streak-stats.demolab.com?user=mohammad-elayyan&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
-                <ItemLayout className="col-span-6 !p-0">
+                <ItemLayout className="col-span-full md:col-span-6 !p-0">
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=mohammad-elayyan&repo=Portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_line_count=2" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
             </div>
