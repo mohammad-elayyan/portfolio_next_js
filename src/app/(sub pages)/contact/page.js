@@ -15,12 +15,12 @@ const Contact = () => {
         height={800}
       />
 
-      <article className="relative w-full flex flex-col items-center justify-center space-y-8">
-        <div className="flex flex-col items-center justify-center space-y-6 w-3/4">
+      <article className="relative w-full flex flex-col items-center justify-center sm:py-0 space-y-8">
+        <div className="flex flex-col items-center justify-center space-y-6 w-full sm:*:w-3/4">
           <h1 className="text-4xl font-semibold text-accent text-center capitalize">
             summon the wizard
           </h1>
-          <p className="text-center font-light">
+          <p className="text-center font-light text-sm xs:text-base">
             summon the wizard summon the wizard summon the wizard summon the
             wizard summon the wizard summon the wizard
           </p>
