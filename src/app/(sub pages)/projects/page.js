@@ -4,7 +4,12 @@ import Image from "next/image";
 import { projectsData } from "@/app/data";
 import ProjectList from "@/components/projects";
 import RenderModel from "@/components/RenderModel";
-import Staff from "@/components/models/Staff";
+import dynamic from "next/dynamic";
+// import Staff from "@/components/models/Staff";
+
+const Staff = dynamic(() => import("@/components/models/Staff"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (
@@ -16,6 +21,8 @@ const Home = () => {
         layout="responsive"
         width={1200}
         height={800}
+        priority
+        sizes="100vw"
       />
 
       <ProjectList projects={projectsData} />

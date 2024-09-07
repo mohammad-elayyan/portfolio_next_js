@@ -20,17 +20,17 @@ const AboutDetails = () => {
 
                 <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
                     <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                        +25 <sub className='font-semibold text-base'>clients</sub>
+                        +100 <sub className='font-semibold text-base'>projects</sub>
                     </p>
                 </ItemLayout>
                 <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
-                    <div>
-                        <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                            +4 <sub className='font-semibold text-base'>
-                                years of experience
-                            </sub>
-                        </p>
-                    </div>
+
+                    <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
+                        +4 <sub className='font-semibold text-base'>
+                            years of experience
+                        </sub>
+                    </p>
+
                 </ItemLayout>
                 <ItemLayout className="col-span-full sm:col-span-6 md:col-span-4 !p-0">
                     <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/top-langs?username=mohammad-elayyan&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false" alt="github stats"
@@ -47,7 +47,7 @@ const AboutDetails = () => {
                     <img className='w-full h-auto' src="https://streak-stats.demolab.com?user=mohammad-elayyan&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
                 <ItemLayout className="col-span-full md:col-span-6 !p-0">
-                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=mohammad-elayyan&repo=Portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_line_count=2" alt="github streak stats" loading='lazy' />
+                    <img className='w-full h-auto' src="https://github-readme-stats.vercel.app/api/pin/?username=mohammad-elayyan&repo=portfolio_next_js&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_line_count=2" alt="github streak stats" loading='lazy' />
                 </ItemLayout>
             </div>
         </section>

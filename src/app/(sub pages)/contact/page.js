@@ -13,6 +13,8 @@ const Contact = () => {
         layout="responsive"
         width={1200}
         height={800}
+        priority
+        sizes="100vw"
       />
 
       <article className="relative w-full flex flex-col items-center justify-center sm:py-0 space-y-8">

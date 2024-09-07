@@ -9,7 +9,7 @@ const NavLink = motion(Link);
 
 const HomeBtn = () => {
     return (
-        <NavLink initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.5, duration: 0.5 }} href="/" target={'_self'}
+        <NavLink initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.25, duration: 0.5 }} href="/" target={'_self'}
             className="text-foreground rounded-full flex items-center justify-center custom-bg fixed top-4 left-4 w-fit self-start z-50" aria-label={"home"} name={"home"}>
 
             <span className="relative w-14 h-14 p-4
