@@ -1,7 +1,8 @@
 "use client"
-import React, { useRef } from 'react'
+import React, { useLayoutEffect, useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
+
 
 export default function Wizard(props) {
     const { nodes, materials } = useGLTF('/models/wizard-transformed.glb')
@@ -10,6 +11,7 @@ export default function Wizard(props) {
         modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15
 
     })
+
     return (
         <group {...props} dispose={null} position={[0, -1.5, 0]} scale={[0.06, 0.06, 0.06]}
             rotation={[.25, 0, 0]} ref={modelRef}>
@@ -151,44 +153,8 @@ export default function Wizard(props) {
             <mesh
                 castShadow
                 receiveShadow
-                geometry={nodes.BookFront_glow_mesh_Booklambert8_0.geometry}
-                material={materials.PaletteMaterial002}
-                position={[-1.057, 0, 0]}
-                rotation={[0, 0.224, 0]}
-                scale={0.832}
-            />
-            <mesh
-                castShadow
-                receiveShadow
                 geometry={nodes.BookpolySurface2_BookBLN_Book_covers_0.geometry}
                 material={materials.BookBLN_Book_covers}
-                position={[-1.057, 0, 0]}
-                rotation={[0, 0.224, 0]}
-                scale={0.832}
-            />
-            <mesh
-                castShadow
-                receiveShadow
-                geometry={nodes.BookpCube10_Booklam_front_bits_0.geometry}
-                material={materials.material_2}
-                position={[-1.057, 0, 0]}
-                rotation={[0, 0.224, 0]}
-                scale={0.832}
-            />
-            <mesh
-                castShadow
-                receiveShadow
-                geometry={nodes.BookpolySurface28_Booklam_back_bits_0.geometry}
-                material={materials.Booklam_back_bits}
-                position={[-1.057, 0, 0]}
-                rotation={[0, 0.224, 0]}
-                scale={0.832}
-            />
-            <mesh
-                castShadow
-                receiveShadow
-                geometry={nodes.Evil_HatpPlane1_Evil_HatsolidShader_0.geometry}
-                material={materials.PaletteMaterial003}
                 position={[-1.057, 0, 0]}
                 rotation={[0, 0.224, 0]}
                 scale={0.832}

@@ -1,91 +1,94 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
-
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Lacasa Shop",
+    description: "Buy all what you need online",
+    date: "2023-03-18",
+    demoLink: "https://lacasa-ely.netlify.app/",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "ElayyanTube",
+    description: "Customize your own YouTube",
+    date: "2022-10-29",
+    demoLink: "https://elayyantube.netlify.app/",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "PaintToon",
+    description: "Discover art and express emotions",
+    date: "2024-06-10",
+    demoLink: "https://mohammad-elayyan.github.io/paint_toon/",
   },
   {
     id: 4,
     name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    description: "Discover heart parts accurately",
+    date: "2024-03-21",
+    demoLink: "https://mohammad-elayyan.github.io/heart-model/",
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "Speak Natively",
+    description: "Learn to speak like a native",
+    date: "2023-09-2",
+    demoLink: "https://mohammad-elayyan.github.io/words-speaking/",
+  },
+  {
+    id: 13,
+    name: "Math",
+    description: "Solve and practice mathmatical problems",
+    date: "2023-09-2",
+    demoLink: "https://mohammad-elayyan.github.io/math/",
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    name: "Eatly",
+    description: "Take care of your health",
+    date: "2023-11-01",
+    demoLink: "https://mohammad-elayyan.github.io/eatly/",
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
+    name: "Delicious",
+    description: "Discover all kitchens around the world",
+    date: "2022-11-05",
+    demoLink: "https://mohammad-elayyan.github.io/Delicious/",
   },
   {
     id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
+    name: "Movies World",
+    description: "Discover latest movies and series",
+    date: "2023-09-17",
+    demoLink: "https://mohammad-elayyan.github.io/movies-world/",
   },
   {
     id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
+    name: "Books",
+    description: "Online Books store",
+    date: "2020-10-17",
+    demoLink: "https://mohammad-elayyan.github.io/Books/",
   },
   {
     id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "CV",
+    description: "jQuery and other libraries",
+    date: "2021-02-10",
+    demoLink: "https://mohammad-elayyan.github.io/Cv/",
+  },
+  {
+    id: 11,
+    name: "Blogger",
+    description: "Blog interface with nice animations",
+    date: "2020-11-02",
+    demoLink: "https://mohammad-elayyan.github.io/Blogger/",
+  },
+  {
+    id: 12,
+    name: "Portfolio",
+    description: "Nice and simple portfolio interface",
+    date: "2020-01-21",
+    demoLink: "https://mohammad-elayyan.github.io/Portfolio/",
   },
 ];
 
@@ -102,13 +105,13 @@ export const BtnList = [
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/mohammad-elayyan-1b8792193/",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "X",
-    link: "https://www.x.com/code_bucks",
+    link: "https://x.com/mohmmadalean1/",
     icon: "twitter",
     newTab: true,
   },

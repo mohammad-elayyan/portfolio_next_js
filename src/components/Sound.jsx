@@ -58,6 +58,8 @@ const Sound = () => {
         } else {
             setShowModal(true);
         }
+
+
     }, []);
 
     const toggle = () => {
