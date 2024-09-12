@@ -29,7 +29,7 @@ const Contact = () => {
             you as soon as posible.
           </p>
         </div>
-        <div className="grid grid-cols-12 gap-4  w-full justify-items-center">
+        <div className="grid grid-cols-12 gap-8 md:gap-6 lg:gap-4 w-full justify-items-center">
           <ItemLayout className="col-span-full md:col-span-5 !p-0 h-72 flex flex-col w-full">
             <h1 className="text-accent text-2xl md:text-3xl capitalize">
               contact info
