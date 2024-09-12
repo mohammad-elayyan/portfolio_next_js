@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import { Toaster, toast } from 'sonner';
 import { delay, motion } from 'framer-motion';
+import clsx from 'clsx';
 
 const container = {
     hidden: { opacity: 0 },
@@ -20,13 +21,14 @@ const item = {
     show: { scale: 1, }
 }
 
-const Form = () => {
+const Form = ({ className }) => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data) => {
         const templateParams = {
             to_name: "Elayyan",
             from_name: data.name,
             reply_to: data.email,
+            phone: data.phone,
             message: data.message
         }
         sendEmail(templateParams);
@@ -61,11 +63,10 @@ const Form = () => {
                     });
     };
 
-
     return (
         <><Toaster richColors={true} />
             <motion.form variants={container} initial="hidden" animate="show" onSubmit={handleSubmit(onSubmit)}
-                className='max-w-md w-full flex flex-col items-center justify-center space-y-4'>
+                className={clsx('max-w-md w-full flex flex-col items-center justify-center space-y-4', className)}>
                 <motion.input variants={item} type="text" placeholder="name" {...register("name", {
                     required: 'This field is required', minLength: {
                         value: 3,
@@ -79,6 +80,11 @@ const Form = () => {
                 })}
                     className='w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-1 focus:ring-accent/50 custom-bg' />
                 {errors.email && <motion.span variants={item} className='inline-block self-start text-danger'>{errors.email.message}</motion.span>}
+                <motion.input variants={item} type="tel" placeholder="phone" {...register("phone", {
+                    required: 'This field is required',
+                })}
+                    className='w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-1 focus:ring-accent/50 custom-bg' />
+                {errors.email && <motion.span variants={item} className='inline-block self-start text-danger'>{errors.phone.message}</motion.span>}
                 <motion.textarea variants={item} type="text" placeholder="message" {...register("message", {
                     required: 'This field is required', maxLength: {
                         value: 500,
