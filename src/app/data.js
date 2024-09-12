@@ -31,14 +31,14 @@ export const projectsData = [
     id: 5,
     name: "Speak Natively",
     description: "Learn to speak like a native",
-    date: "2023-09-2",
+    date: "2023-09-02",
     demoLink: "https://mohammad-elayyan.github.io/words-speaking/",
   },
   {
     id: 13,
     name: "Math",
     description: "Solve and practice mathmatical problems",
-    date: "2023-09-2",
+    date: "2023-07-02",
     demoLink: "https://mohammad-elayyan.github.io/math/",
   },
   {
