@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <Image
-        className="w-full h-full -z-50 fixed top-0 left-0  object-cover object-center opacity-25"
+        className="w-full h-full -z-50 fixed top-0 left-0 object-cover object-center opacity-25"
         src={"/background/contact-background.png"}
         alt="background"
         layout="responsive"
@@ -29,8 +29,8 @@ const Contact = () => {
             you as soon as posible.
           </p>
         </div>
-        <div className="grid grid-cols-12 gap-4 sm:gap-6 md:gap-8 w-full ">
-          <ItemLayout className="col-span-full md:col-span-5 !p-0 h-72 flex flex-col">
+        <div className="grid grid-cols-12 gap-4  w-full justify-items-center">
+          <ItemLayout className="col-span-full md:col-span-5 !p-0 h-72 flex flex-col w-full">
             <h1 className="text-accent text-2xl md:text-3xl capitalize">
               contact info
             </h1>
@@ -62,7 +62,7 @@ const Contact = () => {
               </div>
             </div>
           </ItemLayout>
-          <Form className="col-span-full md:col-span-7 !p-0 mx-auto md:mx-8" />
+          <Form className="col-span-full md:col-span-6 !p-0" />
         </div>
       </article>
     </>
