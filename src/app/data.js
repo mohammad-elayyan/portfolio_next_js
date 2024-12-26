@@ -1,23 +1,37 @@
 export const projectsData = [
   {
+    id: 16,
+    name: "Interactive Module",
+    description: "E-Learning interative content",
+    date: "2024-06-02",
+    demoLink: "https://module-1-two.vercel.app/",
+  },
+  {
+    id: 17,
+    name: "Interactive E-Book",
+    description: "E-Learning interative book",
+    date: "2023-06-20",
+    demoLink: "https://full-e-book.vercel.app/",
+  },
+  {
     id: 0,
     name: "Interactive 1",
     description: "E-Learning interative content",
-    date: "2022-04-16",
+    date: "2022-04-18",
     demoLink: "https://1402.vercel.app/",
   },
   {
     id: 14,
     name: "Interactive 2",
     description: "E-Learning interative content",
-    date: "2022-04-16",
+    date: "2022-04-18",
     demoLink: "https://oh-tg-0001.vercel.app/",
   },
   {
     id: 15,
     name: "Interactive 3",
     description: "E-Learning interative content",
-    date: "2022-04-16",
+    date: "2022-04-18",
     demoLink: "https://oh-tg-0057.vercel.app/",
   },
   {
