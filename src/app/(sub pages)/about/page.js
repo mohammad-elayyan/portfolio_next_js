@@ -31,7 +31,7 @@ const About = () => {
       </div>
       <div className="relative w-full h-screen flex flex-col items-center justify-center top-8">
         <div className="flex flex-col items-center text-center absolute top-1/2 sm:top-[60%] left-1/2  -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-9xl text-accent text-nowrap">
+          <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-9xl text-accent lg:text-nowrap">
             Mohammad Elayyan
           </h1>
           <p className="font-light text-foreground text-base mt-3">
